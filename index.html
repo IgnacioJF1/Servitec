@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--CONFIGURACION PARA SER COMPATIBLE CON DISP. TOUCH-->
+    <title>Servitec</title>
+    <link rel="shortcut icon" href="Imagenes/servitec.jpg" type="image/x-icon"> <!--ETIQUETA PARA PONER ICONO EN PESTAÑA-->
+    <link rel="stylesheet" href="estilo.css" type="text/css"> <!--ETIQUETA PARA TRAER CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Servitec</title>
+</head>
+<body>
+    <div class="contenedor" >
+    <h1>SERVITEC</h1>
+    
+    
+    <h2>MANTENIMIENTO E INSTALACION DE PORTONES</h2>
+    <ul>
+        <h3>VENTAJAS DE AUTOMATIZAR TU PORTON:</h3> <!--COLOCAMOS UNA LISTA TIPO DESORDENADA-->
+        <li>SEGURIDAD</li>
+        <li>COMODIDAD</li>
+        <li>ESTETICA</li>
+        <li>PRIVACIDAD</li>
+        <li>INVERSION</li>
+    </ul>
+    </div>
+    <div>
+        <h3>TIPOS DE PORTON Y MOTOR</h3> <!--CREAMOS UNA TABLA QUE A LA VEZ LLEVA A UN LINK POR CADA CELDA A UNA GALERIA DE FOTOS-->
+        <table>
+            <tr>
+                <td style="text-align: center;">
+                    <img src="https://images.homify.com/image/upload/c_scale,h_500,w_500/v1459413254/p/photo/image/1431712/11988662_523828514451372_3100620510549639353_n.jpg" alt="CORREDIZO" width="200" height="200">
+                    <button class= "btn"onclick="location.href='Corredizo.html'">CORREDIZO</button>
+                </td>
+                <td style="text-align: center;">
+                    <img src="https://i.pinimg.com/originals/7c/4d/6c/7c4d6c5593b9466d5c5d805c55352a1e.png" alt="LEVADIZO" width="200" height="200">
+                    <button class= "btn" onclick="location.href='Levadizo.html'">LEVADIZO</button>
+                </td>
+                <td style="text-align: center;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGv0FABEs8eq7G8UpUxP1FANnzmrSadtSA_Mw2dMOUTUNX1oaFI3cglSi0AlCZOjKWrc&usqp=CAU" alt="BATIENTE" width="200" height="200">
+                    <button class= "btn" onclick="location.href='Batiente.html'">BATIENTE</button>
+                </td>
+                <td style="text-align: center;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk_ylc5cDcwUlxjv6wQfcB2GmMsyC32wZFCw&usqp=CAU" alt="BARRERAS" width="200" height="200">
+                    <button class= "btn" onclick="location.href='Barrera.html'">BARRERA</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    
+    <!--<div>
+        <h4>ENVIA TUS COMENTARIOS</h4>
+            <iframe src="Comentarios.sql" width="600" height="400"></iframe>
+            
+    </div>-->
+    <div class="contenedor">
+        <h4>COMENTANOS TUS DUDAS</h4> <!--COLOCAMOS UN FORMULARIO QUE NOS GUADAN LOS DATOS EN UNA BASE DE DATOS-->
+        <form class="mi-formulario" action="procesar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="mail">Correo Electronico:</label>
+            <input type="email" id="mail" name="mail" required>
+
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="Comentarios">Comentarios:</label>
+            <input type="text" id="Comentarios" name="apellido" required>
+
+            <button class="btn" type="submit"> Enviar</button>
+        </form>
+    </div>
+    <hr>
+    <footer> <!--AGREGAMOS UN PIE DE PAGINA -->
+        <h4>POR UNA URGENCIA COMUNICATE CON NOSOTROS</h4>
+    <div class="contenedor-footer">
+        
+        <div class="content-foo">
+        <h5>Phone</h5>
+        <p>8296312</p>
+        </div>
+        <div class="content-foo">
+        <h5>Email</h5>
+        <p>8296312</p>
+        </div>
+        <div class="content-foo">
+        <h5>Location</h5>
+        <p>8296312</p>
+        </div>
+    </div>
+    <h2 class="titulo-final">&copy; IgnacIO Design | Ignacio Fernandez</h2> 
+    </footer>
+
+    <div class="whatsapp"> <!--PONEMOS UN ICONO DE WHATSAPP QUE A SU VEZ TE REDIRECCIONA PARA MENSAJEAR-->
+        
+        <a href="https://api.whatsapp.com/send?phone=+5492613697275&text=Hola, tengo una urgencia." target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    </div>
+</body>
+</html> 
