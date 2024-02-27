@@ -1,0 +1,3 @@
+Estimados/as este codigo es un poco mas complejo ya que utilizamos lenguajes como HTML, CSS, PHP, MySQL y agregamos imagines. Es un codigo creado para una Web de Empresa que informa sus caracteristicas, posee galeria de fotos, se puedo conectar instantaneamente por Whatsapp con la empresa y genera una base de datos de las opiniones que el cliente/usuario puede dar, entre otras. Se genero el FrontEnd con CSS con las caracteristica que nos informo la empresa y se utilizo tabla de colores para su mayor atraccion. 
+
+Saludos.
